@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="flex-grow flex flex-col justify-center items-center gap-1.5 px-6">
         <p className="font-medium">Ready to dream something different?</p>
 
-        <div className="text-[#18799B] flex flex-col items-center gap-2.5 hover:text-black transition-colors duration-300 cursor-pointer">
+        <div className="text-black flex flex-col items-center gap-2.5 hover:text-[#18799B] transition-colors duration-300 cursor-pointer">
           <h2 className="text-[120px] leading-none font-oreloBold pb-[0.25em] border-b border-current tracking-widest">
             CHIC
           </h2>
@@ -43,15 +43,24 @@ const Footer = () => {
 
           <div className="flex text-2xl gap-5">
             <a href="#" target="_blank">
-              <FontAwesomeIcon icon={faInstagram} className="h-[1em]" />
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="h-[1em] text-black hover:text-[#18799B] transition-colors duration-200"
+              />
             </a>
 
             <a href="#" target="_blank">
-              <FontAwesomeIcon icon={faFacebookF} className="h-[1em]" />
+              <FontAwesomeIcon
+                icon={faFacebookF}
+                className="h-[1em] text-black hover:text-[#18799B] transition-colors duration-200"
+              />
             </a>
 
             <a href="#" target="_blank">
-              <FontAwesomeIcon icon={faTiktok} className="h-[1em]" />
+              <FontAwesomeIcon
+                icon={faTiktok}
+                className="h-[1em] text-black hover:text-[#18799B] transition-colors duration-200"
+              />
             </a>
           </div>
         </div>
