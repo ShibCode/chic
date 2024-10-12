@@ -3,13 +3,17 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./layout/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        sans: "Nunito Sans",
+        oreloBold: "Orelo SemiWide Bold",
+        oreloRegular: "Orelo SemiWide Regular",
+        madi: "Ms Madi",
+        qwitcher: "Qwitcher Grypen",
       },
     },
   },
