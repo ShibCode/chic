@@ -1,10 +1,6 @@
-"use client";
-
-import React, { useRef } from "react";
+import React from "react";
 
 const EventShowcase = () => {
-  const logosWrapper = useRef();
-
   return (
     <div className="flex flex-col items-center text-center gap-16 pt-[1vw] pb-[3vw]">
       <h2 className="uppercase text-[44px] max-w-[1100px] !leading-[1.2em] font-light font-oreloRegular">
@@ -20,7 +16,7 @@ const EventShowcase = () => {
       <div className="flex flex-col gap-10">
         <span>AS SEEN IN:</span>
 
-        <div ref={logosWrapper} className="flex items-center gap-10">
+        <div className="flex items-center gap-10">
           <img
             src="/haute-living.png"
             alt="Haute Living"
