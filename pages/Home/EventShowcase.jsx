@@ -1,46 +1,9 @@
 "use client";
 
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 import React, { useRef } from "react";
 
 const EventShowcase = () => {
   const logosWrapper = useRef();
-
-  // useGSAP(
-  //   () => {
-  //     gsap.registerPlugin(ScrollTrigger);
-
-  //     const logos = document.querySelectorAll(".event_brand-logo");
-
-  //     const values = [
-  //       { from: -40, to: 40 },
-  //       { from: 20, to: -30 },
-  //       { from: 30, to: 30 },
-  //       { from: -50, to: 10 },
-  //       { from: 10, to: -20 },
-  //     ];
-
-  //     logos.forEach((logo, index) => {
-  //       gsap.fromTo(
-  //         logo,
-  //         { y: values[index].from },
-  //         {
-  //           y: values[index].to,
-  //           scrollTrigger: {
-  //             trigger: logosWrapper.current,
-  //             start: "top bottom",
-  //             end: "bottom top",
-  //             markers: true,
-  //             scrub: 1,
-  //           },
-  //         }
-  //       );
-  //     });
-  //   },
-  //   { dependencies: [], revertOnUpdate: true }
-  // );
 
   return (
     <div className="flex flex-col items-center text-center gap-16 pt-[1vw] pb-[3vw]">

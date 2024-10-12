@@ -1,5 +1,4 @@
 import {
-  faFacebook,
   faFacebookF,
   faInstagram,
   faTiktok,
