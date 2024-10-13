@@ -1,0 +1,92 @@
+[
+  {
+    "images": [
+      { "src": "/gallery-1.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-4.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-5.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-3.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-2.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Creative Corners"
+  },
+  {
+    "images": [
+      { "src": "/gallery-2.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-1.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-4.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-5.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-3.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Artisan Hub"
+  },
+  {
+    "images": [
+      { "src": "/gallery-3.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-5.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-1.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-4.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-2.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Inspire Gallery"
+  },
+  {
+    "images": [
+      { "src": "/gallery-4.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-2.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-3.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-5.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-1.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Cultural Canvas"
+  },
+  {
+    "images": [
+      { "src": "/gallery-5.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-1.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-3.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-4.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-2.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Creative Corners"
+  },
+  {
+    "images": [
+      { "src": "/gallery-1.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-5.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-4.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-3.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-2.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Modernist Space"
+  },
+  {
+    "images": [
+      { "src": "/gallery-2.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-5.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-3.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-1.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-4.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Urban Arts Studio"
+  },
+  {
+    "images": [
+      { "src": "/gallery-3.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-4.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-5.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-1.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-2.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Creative Corners"
+  },
+  {
+    "images": [
+      { "src": "/gallery-4.jpg", "aspect": [2, 1] },
+      { "src": "/gallery-2.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-1.jpg", "aspect": [1, 2] },
+      { "src": "/gallery-5.jpg", "aspect": [1, 1] },
+      { "src": "/gallery-3.jpg", "aspect": [2, 1] }
+    ],
+    "venue": "Cultural Canvas"
+  }
+]

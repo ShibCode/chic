@@ -10,9 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: "Nunito Sans",
-        oreloBold: "Orelo SemiWide Bold",
-        oreloRegular: "Orelo SemiWide Regular",
-        madi: "Ms Madi",
+        italiana: "Italiana",
         qwitcher: "Qwitcher Grypen",
       },
     },

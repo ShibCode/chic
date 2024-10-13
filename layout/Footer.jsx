@@ -13,7 +13,7 @@ const Footer = () => {
         <p className="font-medium">Ready to dream something different?</p>
 
         <div className="text-black flex flex-col items-center gap-2.5 hover:text-[#18799B] transition-colors duration-300 cursor-pointer">
-          <h2 className="text-[120px] leading-none font-oreloBold pb-[0.25em] border-b border-current tracking-widest">
+          <h2 className="text-[120px] !leading-none font-italiana font-bold pb-[0.25em] border-b border-current tracking-widest">
             CHIC
           </h2>
 
@@ -28,15 +28,15 @@ const Footer = () => {
             New York, NY 10018
           </p>
 
-          <h6 className="text-[85px] !leading-[1.1] translate-y-[-0.041em] font-oreloBold tracking-widest">
+          <h6 className="text-[85px] !leading-[1.1] translate-y-[0.02em] font-italiana font-bold tracking-widest">
             CHIC
           </h6>
         </div>
 
         <div className="flex justify-between px-6 items-center pt-5 pb-12">
           <ul className="text-lg font-medium">
-            <li>718.853.8538</li>
-            <li>info@birchevents.com</li>
+            <li>619-919-2437</li>
+            <li>chicflowersonline@gmail.com</li>
             <li>Event Inquiries</li>
           </ul>
 

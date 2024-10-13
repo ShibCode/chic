@@ -5,11 +5,11 @@ const Hero = () => {
     <div
       style={{
         backgroundImage:
-          "linear-gradient(#00000060, #00000060), url(/hero.jpg)",
+          "linear-gradient(#00000080, #00000080), url(/hero.jpg)",
       }}
       className="w-full h-[100dvh] bg-no-repeat bg-cover flex flex-col items-center relative"
     >
-      <h1 className="text-white text-[120px] leading-none font-oreloBold mt-12 tracking-widest">
+      <h1 className="text-white text-[120px] leading-none font-italiana font-bold mt-12 tracking-widest">
         CHIC
       </h1>
 
