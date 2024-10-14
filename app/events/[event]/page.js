@@ -10,8 +10,8 @@ const Event = () => {
   const eventData = portfolioData[params.event - 1];
 
   return (
-    <div className="flex flex-col px-[5vw] items-center">
-      <h1 className="font-italiana text-6xl font-bold my-20">
+    <div className="flex flex-col px-[5vw] pt-[72px] items-center">
+      <h1 className="font-italiana text-6xl font-bold my-16">
         {eventData.venue}
       </h1>
 

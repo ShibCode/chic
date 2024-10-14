@@ -1,6 +1,8 @@
 import Header from "@/layout/Header";
-import "./globals.css";
 import Footer from "@/layout/Footer";
+import "./globals.css";
+
+import Setup from "./Setup";
 
 export const metadata = {
   title: "CHIC",
@@ -11,6 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`antialiased`}>
+        <Setup />
+
         <Header />
         {children}
         <Footer />

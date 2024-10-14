@@ -42,7 +42,7 @@ const Portfolio = () => {
         >
           <div
             style={{ clipPath: "polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%)" }}
-            className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300"
+            className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
           >
             <div className="absolute inset-0 bg-black/50" />
 

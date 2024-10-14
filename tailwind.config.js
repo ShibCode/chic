@@ -12,6 +12,7 @@ module.exports = {
         sans: "Nunito Sans",
         italiana: "Italiana",
         qwitcher: "Qwitcher Grypen",
+        mont: "Montserrat",
       },
     },
   },
