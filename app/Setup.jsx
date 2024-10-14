@@ -1,7 +1,7 @@
 "use client";
 
 import gsap from "gsap";
-import { CustomEase, Flip, ScrollTrigger } from "gsap/all";
+import { Flip, ScrollTrigger } from "gsap/all";
 import Lenis from "lenis";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -11,7 +11,7 @@ const Setup = () => {
 
   const pathname = usePathname();
 
-  gsap.registerPlugin(ScrollTrigger, Flip, CustomEase);
+  gsap.registerPlugin(ScrollTrigger, Flip);
 
   useEffect(() => {
     lenis?.scrollTo(0);

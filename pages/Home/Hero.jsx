@@ -1,8 +1,6 @@
 "use client";
 
 import gsap from "gsap";
-import { CustomEase } from "gsap/all";
-import { usePathname } from "next/navigation";
 import React, { useEffect, useRef } from "react";
 
 const Hero = () => {
