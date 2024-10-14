@@ -13,7 +13,6 @@ const Hero = () => {
 
   useEffect(() => {
     const tl = gsap.timeline({ delay: 0.2 });
-
     tl.to(wrapper.current, {
       backgroundSize: "100%",
       ease: "circ.out",
