@@ -48,13 +48,15 @@ const Hero = () => {
       </div>
 
       <div className="flex gap-3 absolute top-1/2 -translate-y-1/2">
-        <button
+        <a
+          href="#portfolio"
+          id="portfolio-link"
           ref={btn1}
           style={{ opacity: 0 }}
-          className="uppercase text-white hover:text-black font-bold border-2 border-white rounded-[4px] h-12 px-5 text-[15px] hover:bg-white transition-colors duration-200"
+          className="flex justify-center items-center uppercase text-white hover:text-black font-bold border-2 border-white rounded-[4px] h-12 px-5 text-[15px] hover:bg-white transition-colors duration-200"
         >
           Portfolio
-        </button>
+        </a>
         <button
           ref={btn2}
           style={{ opacity: 0 }}
