@@ -43,6 +43,7 @@ const InstagramFeed = () => {
       <div ref={slider} className="flex w-max h-full items-center gap-12">
         {feedData.map((post, i) => (
           <div
+            key={i}
             style={{
               backgroundColor: `rgb(${i * 15 + 100}, ${i * 15}, ${i * 15})`,
             }}
