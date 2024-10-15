@@ -14,7 +14,9 @@ const Setup = () => {
   gsap.registerPlugin(ScrollTrigger, Flip);
 
   useEffect(() => {
-    lenis?.scrollTo(0);
+    if (window.scrollY > 0) {
+      lenis?.scrollTo(0);
+    }
   }, [lenis, pathname]);
 
   useEffect(() => {

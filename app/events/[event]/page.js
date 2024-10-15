@@ -17,14 +17,7 @@ const Event = () => {
 
       <div className="grid grid-cols-3 gap-[3.333vw] [grid-auto-rows:500px]">
         {eventData.images.map((image, i) => (
-          <div
-            key={i}
-            style={{
-              gridColumn: `span ${(image.aspect && image.aspect[0]) || 1}`,
-              gridRow: `span ${(image.aspect && image.aspect[1]) || 1}`,
-            }}
-            className={``}
-          >
+          <div key={i}>
             <img
               src={image.src}
               className="w-full h-full object-cover rounded-md"
