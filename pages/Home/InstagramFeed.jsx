@@ -3,7 +3,7 @@ import React from "react";
 const feedData = ["/feed-1.jpg", "/feed-2.jpg", "/feed-3.jpg", "/feed-4.jpg"];
 
 const getFeed = async () => {
-  if (!process.env.INSTAGRAM_KEY) return;
+  if (!process.env.INSTAGRAM_KEY) return { data: [] };
 
   const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${process.env.INSTAGRAM_KEY}`;
 
@@ -28,7 +28,7 @@ const InstagramFeed = async () => {
       </h3>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 w-full">
-        {feed?.data
+        {feed.data
           .filter((post) => post.media_type === "IMAGE")
           .slice(0, 4)
           .map((post, i) => (
