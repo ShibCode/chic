@@ -15,7 +15,8 @@ const getFeed = async () => {
 };
 
 const InstagramFeed = async () => {
-  const feed = await getFeed();
+  // const feed = await getFeed();
+  const feed = { data: [] };
 
   return (
     <div className="flex flex-col items-center text-center mt-24 sm:mt-32 lg:mt-40 mb-10 gap-9 sm:gap-12">
