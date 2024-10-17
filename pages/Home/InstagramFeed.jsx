@@ -1,21 +1,6 @@
 import React from "react";
 
-const feedData = ["/feed-1.jpg", "/feed-2.jpg", "/feed-3.jpg", "/feed-4.jpg"];
-
-const getFeed = async () => {
-  if (!process.env.INSTAGRAM_KEY) return { data: [] };
-
-  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${process.env.INSTAGRAM_KEY}`;
-
-  const data = await fetch(url);
-
-  const feed = await data.json();
-
-  return feed;
-};
-
 const InstagramFeed = async () => {
-  // const feed = await getFeed();
   const feed = { data: [] };
 
   return (
