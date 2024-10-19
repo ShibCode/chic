@@ -15,7 +15,7 @@ const Setup = () => {
 
   useEffect(() => {
     if (window.scrollY > 0) {
-      // lenis?.scrollTo(0);
+      lenis?.scrollTo(0);
     }
 
     const portfolioLink = document.querySelector("#portfolio-link");

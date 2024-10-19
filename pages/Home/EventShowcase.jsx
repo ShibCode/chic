@@ -90,6 +90,41 @@ const EventShowcase = () => {
     }px`;
   };
 
+  const handleTouchStart = (e) => {
+    mouseDownAt.current = e.touches[0].clientX;
+    isMouseDown.current = true;
+    slideProgressAtMouseDown.current = slideProgress.current;
+  };
+
+  const handleTouchEnd = () => {
+    mouseDownAt.current = null;
+    isMouseDown.current = false;
+    slideProgressAtMouseDown.current = null;
+  };
+
+  const handleTouchMove = (e) => {
+    if (!isMouseDown.current) return;
+
+    const dx = -(e.touches[0].clientX - mouseDownAt.current);
+
+    const newSliderProgress = clamp(
+      slideProgressAtMouseDown.current + dx / (reviews.length * 250)
+    );
+
+    slideProgress.current = newSliderProgress;
+
+    const { width } = sliderTrack.current.getBoundingClientRect();
+
+    const padding =
+      getComputedStyle(sliderTrack.current).fontSize.slice(0, -2) * 2;
+
+    const maxScroll = width - window.innerWidth + padding + 15;
+
+    sliderTrack.current.style.translate = `${
+      -maxScroll * slideProgress.current
+    }px`;
+  };
+
   return (
     <div className="flex flex-col items-center text-center gap-16 pt-12 lg:pt-8 pb-14">
       <h2 className="uppercase text-[32px] sm:text-[36px] lg:text-[44px] max-w-[1100px] !leading-[1.1em] font-italiana font-semibold px-6">
@@ -108,6 +143,9 @@ const EventShowcase = () => {
         </div>
 
         <div
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+          onTouchMove={handleTouchMove}
           onMouseDown={handleMouseDown}
           onMouseUp={handleMouseUp}
           onMouseMove={handleMouseMove}
